@@ -5,7 +5,7 @@ import seaborn as sns
 
 engine = create_engine(
     "mysql+mysqlconnector://root@localhost:3306/ecommerce_db",
-    connect_args={"password": "Xvcb8787@"}
+    connect_args={"password": "your_password"}
 )
 
 plt.rcParams['font.family'] = 'Malgun Gothic'
